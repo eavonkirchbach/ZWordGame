@@ -1,0 +1,15 @@
+Game play instructions:
+
+Our game is a game where the user types the characters of a random (not always english) 
+word that is floating towards the bottom of the screen, at which the word will be 
+shortened by each character they type (for example “hello” will become “ello” after 
+the user types the “h” key). After they type out the entire word, said word disappears, 
+and the user should focus on the next word, which is also heading towards the bottom of 
+the screen. If any word reaches the bottom of the screen, the game is over. 
+On this game over screen, the user can view their score and level. 
+The score is increased every time the user types out a correct character and 
+shortens a word (no points are awarded to mistyped keys), while each level is 
+incremented after 10 score points (so 10 characters typed). Further, the speed at 
+which the words travel down the screen increases as the user increments to each new level.
+After the game ends, the user can type the “r” key to restart the game and play again, 
+however, their score and level will start back from 0 again.
